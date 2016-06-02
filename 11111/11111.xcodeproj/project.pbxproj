@@ -15,6 +15,7 @@
 		C70057101D0022D90036E4EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C700570E1D0022D90036E4EE /* LaunchScreen.storyboard */; };
 		C700571B1D0022D90036E4EE /* _1111Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = C700571A1D0022D90036E4EE /* _1111Tests.m */; };
 		C70057261D0022D90036E4EE /* _1111UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C70057251D0022D90036E4EE /* _1111UITests.m */; };
+		C70057351D0034450036E4EE /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C70057341D0034450036E4EE /* TableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		C70057211D0022D90036E4EE /* 11111UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 11111UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C70057251D0022D90036E4EE /* _1111UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _1111UITests.m; sourceTree = "<group>"; };
 		C70057271D0022D90036E4EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C70057331D0034450036E4EE /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		C70057341D0034450036E4EE /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,8 @@
 		C70056F41D0022D90036E4EE = {
 			isa = PBXGroup;
 			children = (
+				C70057331D0034450036E4EE /* TableViewCell.h */,
+				C70057341D0034450036E4EE /* TableViewCell.m */,
 				C70056FF1D0022D90036E4EE /* 11111 */,
 				C70057191D0022D90036E4EE /* 11111Tests */,
 				C70057241D0022D90036E4EE /* 11111UITests */,
@@ -271,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C70057081D0022D90036E4EE /* ViewController.m in Sources */,
+				C70057351D0034450036E4EE /* TableViewCell.m in Sources */,
 				C70057051D0022D90036E4EE /* AppDelegate.m in Sources */,
 				C70057021D0022D90036E4EE /* main.m in Sources */,
 			);
@@ -496,6 +502,7 @@
 				C700572C1D0022D90036E4EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C700572D1D0022D90036E4EE /* Build configuration list for PBXNativeTarget "11111Tests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +511,7 @@
 				C700572F1D0022D90036E4EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C70057301D0022D90036E4EE /* Build configuration list for PBXNativeTarget "11111UITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +520,7 @@
 				C70057321D0022D90036E4EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
